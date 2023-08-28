@@ -6,7 +6,7 @@ router.get("/", (req , res)=>{
  
 })
 router.get("/:id", (req , res)=>{
-    res.json({"body" : "Get all workout"});
+    res.json({"body" : "Get a single workout"});
   
  })
 
